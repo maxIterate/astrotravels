@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 
 function HomePage() {
     return (
-        <div className="w-100 h-[100vh] bg-cover bg-no-repeat bg-bottom"
+        <div className="w-100 h-[100vh] bg-cover bg-no-repeat bg-bottom relative"
         style={{ backgroundImage: 'url(./src/assets/images/bg-2.jpg)' }}
         >
             <Navbar />
@@ -27,6 +27,7 @@ function HomePage() {
                 top-0
                 bg-cover bg-no-repeat bg-bottom
                 z-0
+                border-x-4
                 "
                 style={{ backgroundImage: 'url(./src/assets/images/carousel-demo.jpg)' }}
                 >
